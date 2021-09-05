@@ -1,0 +1,129 @@
+<! Doctype html>
+<html>
+   <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial scale=1" >
+            <link rel="stylesheet" type="text/css" href="CSS/pro.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="icon" href="images/Rockstar_Games_Logo.jpg">
+        <title>ROCKSTAR GAMES</title>
+    </head>
+<body>
+   <!--START  OF HEADER-->
+   <div class="header-logo">
+       <a href="https://www.rockstargames.com/">
+           <img class="logo" src="images/logo1.jpg">
+       </a>
+   </div>
+   <div class="header">
+        <nav>
+            <ul class="main-menu">
+                <li class="menu-item"><a href="home.html">Home</a></li>
+                <li class="menu-item"><a href="ABOUT%20US.html">About us</a></li>
+                <li class="menu-item"><a href="game.html">Games</a></li>
+                 <li class="menu-item"><a href="CONTACT%20.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="sub-header">
+        <a class="sub-header-title" href="https://www.rockstargames.com">ROCKSTAR GAMES</a>
+    </div>
+    <!--END  OF HEADER-->
+    
+    <!--START  OF SLIDER-->
+    <div id="slideshow">
+        <div class="slide-wrapper">
+            <img src="images/slider1.jpg" class ="slide-number">
+            <img src="images/slider3.jpg" class ="slide-number">
+            <img src="images/slider5.jpg" class ="slide-number">
+        </div>
+    </div>
+    <!--END OF SLIDER-->
+    
+    <!--START  OF BODY-->
+    <div class="body">
+        <h1 class="body-title">ABOUT</h1>
+    <div class="img">
+        <div class="body-img">
+           <img class="pic" src="images/body1.jpg" alt="rockstargamesimage">
+           <h2 ><span></span></h2>
+        </div>      
+        <p class="body-content">
+            Rockstar Games, Inc. is an American video game publisher based in New York City. The company was established in December 1998 as a subsidiary of Take-Two Interactive, and as successor to BMG Interactive, a dormant video game publisher of which Take-Two had previously acquired the assets. Founding members of the company were Sam and Dan Houser, Terry Donovan and Jamie King, who worked for Take-Two at the time, and of which the Houser brothers were previously executives at BMG Interactive. Co-founders Sam and Dan Houser head the studio as president and vice-president for creative, respectively.<br><br><br>
+
+            Since 1999, several companies acquired by or established under Take-Two have become part of Rockstar Games, such as Rockstar Canada (later renamed Rockstar Toronto) becoming the first one in 1999, and Rockstar India the most recent in 2016. All companies organized under Rockstar Games bear the "Rockstar" name and logo. In this context, Rockstar Games is sometimes also referred to as Rockstar New York, Rockstar NY or Rockstar NYC. Rockstar Games also sports a motion capture studio in Bethpage, New York.<br><br><br>
+        </p>
+
+        
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">READ MORE<i class="fa fa-angle-double-down" aria-hidden="true"></i></button>
+            <div id="myDropdown" class="dropdown-content">
+                <p>Rockstar Games predominantly publishes games in the action-adventure genre, while racing games also saw success for the company. One of such action-adventure game franchises is Grand Theft Auto, which Rockstar Games took over from BMG Interactive, which published the series' original 1997 entry. The most recent game in the series, Grand Theft Auto V, has shipped over 110 million copies since its release in September 2013, making it one of the best-selling video games of all time. Other popular franchises published by Rockstar Games are Red Dead, Midnight Club, Max Payne and Manhunt.<br><br><br></p>
+            </div>
+        </div>   
+             <script>
+                /* When the user clicks on the button, 
+                toggle between hiding and showing the dropdown content */
+                function myFunction() {
+                 document.getElementById("myDropdown").classList.toggle("show");
+                }
+
+                // Close the dropdown if the user clicks outside of it
+                window.onclick = function(event) {
+                if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                            openDropdown.classList.remove('show');
+                            }
+                        }
+                    }
+                }
+            </script>
+        </div>
+    </div>
+    <hr class="divider">
+    
+    <div class="sub-body">
+        <div class="sub-body-img-info">
+            <p class="sub-body-img-title"> Grand The Auto</p>
+            <img class="sub-body-img" src="images/sub-body-img1.jpg">
+            <h3><span></span></h3>
+            <p class="sub-body-content">The game was controversial from the very first incarnation of the series. Grand Theft Auto was condemned in Britain, Germany, and France due to its "extreme violence", and Brazil banned it outright. Publicist Max Clifford planted sensational stories in tabloids in order to help sell the first game.</p>
+            <button onclick="myFunction()" class="dropbtn2"><a class="sub-body-link"  href="https://grandtheftauto.net/">READ MORE</a><i class="fa fa-angle-double-down" aria-hidden="true"></i></button>
+        </div>
+        <div class="sub-body-img-info">
+            <p class="sub-body-img-title"> Vice City</p>
+            <img class="sub-body-img" src="images/sub-body-img2.jpg">
+            <h4><span></span></h4>
+            <p class="sub-body-content">The sixth game in the series, Grand Theft Auto: Vice City, also came under criticism. One mission in particular, in which the player must instigate a gang war between Haitian and Cuban gangs, has been controversial. Haitian and Cuban anti-defamation groups criticised the game.</p>
+            <button onclick="myFunction()" class="dropbtn2"><a class="sub-body-link" href="https://www.gtavice.com/">READ MORE</a><i class="fa fa-angle-double-down" aria-hidden="true"></i></button>
+
+        </div>
+        <div class="sub-body-img-info">
+            <p class="sub-body-img-title">GTA San Andreas</p>
+            <img class="sub-body-img" src="images/sub-body-img3.jpg">
+            <h5><span></span></h5>
+            <p class="sub-body-content">San Andreas was criticised initially due to its "gangster" elements, which include drugs, prostitution, and murder. Later it received additional criticism after the discovery of an interactive sex minigame, nicknamed Hot Coffee; initially cut from the game, it remained in the game code.</p>
+            <button onclick="myFunction()" class="dropbtn2"><a class="sub-body-link" href="https://www.gta-sanandreas.com/">READ MORE</a><i class="fa fa-angle-double-down" aria-hidden="true"></i></button>
+
+        </div>
+    </div>
+    
+    <!--END  OF BODY-->
+    
+    <!--START  OF FOOTER-->
+    <footer>
+        <div class="footer">
+            <div class="copyright">Rockstar Games&copy;<span></span> 2019.</div>
+            <a  href="https://www.youtube.com/user/RockstarGames"class="fa fa-youtube-play" aria-hidden="true" style="font-size: 30px; color: red; float: right; padding: 10px; padding-right: 250px; text-decoration: none;" ></a>
+            <a href="https://www.facebook.com/rockstargames/" class="fa fa-facebook-square" aria-hidden="true" style="font-size: 30px; color: #15448e; float: right; padding: 10px; padding-right: 10px; text-decoration: none;"></a>
+            <a href="https://www.instagram.com/rockstargames" class="fa fa-instagram" aria-hidden="true" style="font-size: 30px; color:plum; float: right; padding: 10px; padding-right: 10px; text-decoration: none;"></a>
+        </div>
+    </footer>
+    <!--END  OF FOOTER-->
+    
+</body>
+</html>
